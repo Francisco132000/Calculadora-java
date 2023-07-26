@@ -65,14 +65,14 @@ public class Calculadora extends JFrame {
 		setBounds(100, 100, 261, 395);
 		contentPane = new JPanel();
 		contentPane.setForeground(new Color(255, 255, 255));
-		contentPane.setBackground(new Color(255, 255, 255));
+		contentPane.setBackground(new Color(192, 192, 192));
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
 		textPantalla = new JTextField();
-		textPantalla.setBackground(new Color(255, 255, 255));
+		textPantalla.setBackground(new Color(192, 192, 192));
 		textPantalla.setForeground(new Color(0, 0, 0));
 		textPantalla.setHorizontalAlignment(SwingConstants.RIGHT);
 		textPantalla.setFont(new Font("Arial", Font.BOLD, 18));
@@ -87,7 +87,7 @@ public class Calculadora extends JFrame {
 			}
 		});
 		btnLimpiar.setForeground(new Color(255, 255, 255));
-		btnLimpiar.setBackground(new Color(0, 191, 255));
+		btnLimpiar.setBackground(new Color(30, 144, 255));
 		btnLimpiar.setFont(new Font("Arial", Font.BOLD, 17));
 		btnLimpiar.setBounds(190, 62, 50, 48);
 		contentPane.add(btnLimpiar);
@@ -103,7 +103,7 @@ public class Calculadora extends JFrame {
 		});
 		btnSuma.setForeground(new Color(255, 255, 255));
 		btnSuma.setFont(new Font("Arial", Font.BOLD, 18));
-		btnSuma.setBackground(new Color(0, 191, 255));
+		btnSuma.setBackground(new Color(30, 144, 255));
 		btnSuma.setBounds(190, 120, 50, 48);
 		contentPane.add(btnSuma);
 		
@@ -116,7 +116,7 @@ public class Calculadora extends JFrame {
 			}
 		});
 		btn3.setFont(new Font("Arial", Font.BOLD, 18));
-		btn3.setBackground(new Color(192, 192, 192));
+		btn3.setBackground(new Color(255, 255, 255));
 		btn3.setBounds(130, 238, 50, 48);
 		contentPane.add(btn3);
 		
@@ -129,7 +129,7 @@ public class Calculadora extends JFrame {
 			}
 		});
 		btn2.setFont(new Font("Arial", Font.BOLD, 18));
-		btn2.setBackground(new Color(192, 192, 192));
+		btn2.setBackground(new Color(255, 255, 255));
 		btn2.setBounds(70, 238, 50, 48);
 		contentPane.add(btn2);
 		
@@ -143,7 +143,7 @@ public class Calculadora extends JFrame {
 			}
 		});
 		btn1.setFont(new Font("Arial", Font.BOLD, 18));
-		btn1.setBackground(new Color(192, 192, 192));
+		btn1.setBackground(new Color(255, 255, 255));
 		btn1.setBounds(10, 238, 50, 48);
 		contentPane.add(btn1);
 		
@@ -158,7 +158,7 @@ public class Calculadora extends JFrame {
 		});
 		btnResta.setForeground(new Color(255, 255, 255));
 		btnResta.setFont(new Font("Arial", Font.BOLD, 18));
-		btnResta.setBackground(new Color(0, 191, 255));
+		btnResta.setBackground(new Color(30, 144, 255));
 		btnResta.setBounds(190, 179, 50, 48);
 		contentPane.add(btnResta);
 		
@@ -171,7 +171,7 @@ public class Calculadora extends JFrame {
 			}
 		});
 		btn6.setFont(new Font("Arial", Font.BOLD, 18));
-		btn6.setBackground(new Color(192, 192, 192));
+		btn6.setBackground(new Color(255, 255, 255));
 		btn6.setBounds(130, 179, 50, 48);
 		contentPane.add(btn6);
 		
@@ -183,7 +183,7 @@ public class Calculadora extends JFrame {
 			}
 		});
 		btn5.setFont(new Font("Arial", Font.BOLD, 18));
-		btn5.setBackground(new Color(192, 192, 192));
+		btn5.setBackground(new Color(255, 255, 255));
 		btn5.setBounds(70, 179, 50, 48);
 		contentPane.add(btn5);
 		
@@ -196,7 +196,7 @@ public class Calculadora extends JFrame {
 			}
 		});
 		btn4.setFont(new Font("Arial", Font.BOLD, 18));
-		btn4.setBackground(new Color(192, 192, 192));
+		btn4.setBackground(new Color(255, 255, 255));
 		btn4.setBounds(10, 179, 50, 48);
 		contentPane.add(btn4);
 		
@@ -211,7 +211,7 @@ public class Calculadora extends JFrame {
 		});
 		btnMulti.setForeground(new Color(255, 255, 255));
 		btnMulti.setFont(new Font("Arial", Font.BOLD, 18));
-		btnMulti.setBackground(new Color(0, 191, 255));
+		btnMulti.setBackground(new Color(30, 144, 255));
 		btnMulti.setBounds(190, 238, 50, 48);
 		contentPane.add(btnMulti);
 		
@@ -224,7 +224,7 @@ public class Calculadora extends JFrame {
 			}
 		});
 		btn9.setFont(new Font("Arial", Font.BOLD, 18));
-		btn9.setBackground(new Color(192, 192, 192));
+		btn9.setBackground(new Color(255, 255, 255));
 		btn9.setBounds(130, 120, 50, 48);
 		contentPane.add(btn9);
 		
@@ -237,7 +237,7 @@ public class Calculadora extends JFrame {
 			}
 		});
 		btn8.setFont(new Font("Arial", Font.BOLD, 18));
-		btn8.setBackground(new Color(192, 192, 192));
+		btn8.setBackground(new Color(255, 255, 255));
 		btn8.setBounds(70, 120, 50, 48);
 		contentPane.add(btn8);
 		
@@ -250,7 +250,7 @@ public class Calculadora extends JFrame {
 			}
 		});
 		btn7.setFont(new Font("Arial", Font.BOLD, 18));
-		btn7.setBackground(new Color(192, 192, 192));
+		btn7.setBackground(new Color(255, 255, 255));
 		btn7.setBounds(10, 120, 50, 48);
 		contentPane.add(btn7);
 		
@@ -265,7 +265,7 @@ public class Calculadora extends JFrame {
 		});
 		btnDivi.setForeground(new Color(255, 255, 255));
 		btnDivi.setFont(new Font("Arial", Font.BOLD, 18));
-		btnDivi.setBackground(new Color(0, 191, 255));
+		btnDivi.setBackground(new Color(30, 144, 255));
 		btnDivi.setBounds(10, 297, 50, 48);
 		contentPane.add(btnDivi);
 		
@@ -302,7 +302,7 @@ public class Calculadora extends JFrame {
 		});
 		btnIgual.setForeground(new Color(255, 255, 255));
 		btnIgual.setFont(new Font("Arial", Font.BOLD, 18));
-		btnIgual.setBackground(new Color(0, 191, 255));
+		btnIgual.setBackground(new Color(30, 144, 255));
 		btnIgual.setBounds(190, 297, 50, 48);
 		contentPane.add(btnIgual);
 		
@@ -315,7 +315,7 @@ public class Calculadora extends JFrame {
 			}
 		});
 		btnCero.setFont(new Font("Arial", Font.BOLD, 18));
-		btnCero.setBackground(new Color(192, 192, 192));
+		btnCero.setBackground(new Color(255, 255, 255));
 		btnCero.setBounds(70, 297, 50, 48);
 		contentPane.add(btnCero);
 		
@@ -329,7 +329,7 @@ public class Calculadora extends JFrame {
 		});
 		btnPunto.setForeground(new Color(255, 255, 255));
 		btnPunto.setFont(new Font("Arial", Font.BOLD, 23));
-		btnPunto.setBackground(new Color(0, 191, 255));
+		btnPunto.setBackground(new Color(30, 144, 255));
 		btnPunto.setBounds(130, 295, 50, 48);
 		contentPane.add(btnPunto);
 	}
